@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360"
+     role="img" aria-labelledby="title desc">
+  <title id="title">蓝皮书 — WorkBuddy 实战蓝皮书</title>
+  <desc id="desc">可安装的 WorkBuddy 知识库 skill：问一句怎么做，就告诉你读哪章、按哪几步做。四段路径：真实任务、复现成案例、沉淀为 Skill 与自动化、组合成协作团队。</desc>
+
+  <defs>
+    <style>
+      .serif { font-family: Georgia, "Songti SC", "Noto Serif CJK SC", serif; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="14" fill="#F7F3EC"/>
+  <rect x="1" y="1" width="1198" height="358" rx="14" fill="none" stroke="#D9D2C2" stroke-width="1.5"/>
+
+  <!-- left: title block -->
+  <g id="title-block">
+    <rect x="64" y="62" width="12" height="12" fill="#A67C2E"/>
+    <text class="mono" x="86" y="74" font-size="17" letter-spacing="2" fill="#66707D">WORKBUDDY 实战知识库 · SKILL</text>
+    <text class="serif" x="64" y="152" font-size="76" font-weight="700" fill="#1A2332">蓝皮书</text>
+    <text class="sans" x="64" y="196" font-size="27" font-weight="700" fill="#1F4E79">WorkBuddy 实战蓝皮书</text>
+    <text class="sans" x="64" y="238" font-size="21" fill="#1A2332">问一句“怎么做”，就告诉你读哪章、按哪几步做。</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="700" y1="56" x2="700" y2="256" stroke="#D9D2C2" stroke-width="1.5"/>
+
+  <!-- right: four-stage path -->
+  <g id="four-stage-path">
+    <text class="sans" x="740" y="74" font-size="17" fill="#66707D">四段路径 — 一次成功不该只发生一次</text>
+
+    <text class="mono" x="740" y="118" font-size="20" font-weight="700" fill="#A67C2E">01</text>
+    <text class="sans" x="792" y="118" font-size="22" font-weight="700" fill="#1A2332">真实任务</text>
+    <text class="mono" x="908" y="118" font-size="17" fill="#66707D">TASK</text>
+    <text class="sans" x="748" y="141" font-size="15" fill="#A67C2E">↓</text>
+
+    <text class="mono" x="740" y="164" font-size="20" font-weight="700" fill="#A67C2E">02</text>
+    <text class="sans" x="792" y="164" font-size="22" font-weight="700" fill="#1A2332">可复现案例</text>
+    <text class="mono" x="908" y="164" font-size="17" fill="#66707D">CASE</text>
+    <text class="sans" x="748" y="187" font-size="15" fill="#A67C2E">↓</text>
+
+    <text class="mono" x="740" y="210" font-size="20" font-weight="700" fill="#A67C2E">03</text>
+    <text class="sans" x="792" y="210" font-size="22" font-weight="700" fill="#1A2332">Skill 与自动化</text>
+    <text class="mono" x="972" y="210" font-size="17" fill="#66707D">WORKFLOW</text>
+    <text class="sans" x="748" y="233" font-size="15" fill="#A67C2E">↓</text>
+
+    <text class="mono" x="740" y="256" font-size="20" font-weight="700" fill="#A67C2E">04</text>
+    <text class="sans" x="792" y="256" font-size="22" font-weight="700" fill="#1A2332">协作团队</text>
+    <text class="mono" x="908" y="256" font-size="17" fill="#66707D">AI TEAM</text>
+  </g>
+
+  <!-- bottom: real routing example -->
+  <line x1="64" y1="288" x2="1136" y2="288" stroke="#D9D2C2" stroke-width="1.5"/>
+  <g id="routing-example">
+    <text class="mono" x="64" y="327" font-size="16" fill="#66707D">试一句</text>
+    <text class="sans" x="140" y="327" font-size="20" fill="#1A2332">@蓝皮书，workbuddy 怎么装 skill？</text>
+    <text class="sans" x="472" y="327" font-size="22" font-weight="700" fill="#A67C2E">→</text>
+    <text class="mono" x="506" y="327" font-size="20" font-weight="700" fill="#1F4E79">ch05 · Skill</text>
+  </g>
+</svg>
